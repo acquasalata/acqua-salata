@@ -1,0 +1,120 @@
+/* Fuente moderna */
+body {
+  font-family: 'Segoe UI', 'Helvetica Neue', sans-serif;
+  background-color: #ffffff;
+  color: #444444;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+/* Encabezado */
+header {
+  background-color: #0077b6;
+  color: white;
+  padding: 40px 20px;
+  text-align: center;
+  border-bottom: 5px solid #90e0ef;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 36px;
+  letter-spacing: 1px;
+}
+
+header p {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+/* Navegación */
+nav {
+  background-color: #e0f7fa;
+  text-align: center;
+  padding: 10px 0;
+}
+
+nav a {
+  margin: 0 20px;
+  text-decoration: none;
+  color: #0077b6;
+  font-weight: 600;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Secciones */
+section {
+  padding: 60px 20px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+section h2 {
+  color: #023e8a;
+  font-size: 28px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+/* Catálogo */
+.catalogo {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 30px;
+  padding: 0 20px;
+}
+
+.producto {
+  background-color: #f8f9fa;
+  border: 1px solid #caf0f8;
+  border-radius: 16px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+  transition: transform 0.2s ease;
+  text-align: center;
+}
+
+.producto:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+}
+
+.producto h3 {
+  color: #0077b6;
+  margin-bottom: 10px;
+}
+
+.producto p {
+  margin: 5px 0;
+}
+
+.producto-img {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  margin-bottom: 10px;
+  object-fit: cover;
+  max-height: 200px;
+}
+
+/* Contacto y footer */
+footer {
+  background-color: #e0f7fa;
+  text-align: center;
+  padding: 20px;
+  color: #444444;
+  font-size: 14px;
+  margin-top: 40px;
+}
+
+.logo {
+  width: 120px;
+  height: auto;
+  display: block;
+  margin: 0 auto 10px auto;
+}
+
